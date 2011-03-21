@@ -1,0 +1,25 @@
+(*
+jgraph test.jgr > test.ps; gv test.ps
+*)
+
+newgraph
+
+xaxis
+ min -0.1 max 4.9
+(*
+ size 3.5
+*)
+ hash 1 mhash 0 
+(* no_auto_hash_labels *)
+
+newcurve marktype xbar cfill 
+(* 1 0 0 marksize .8 *)
+
+
+pts 1 .390
+    2 .4
+    3 .5
+    4 .1
+
+
+yaxis label : toto

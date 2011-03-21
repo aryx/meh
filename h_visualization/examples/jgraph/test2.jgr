@@ -1,0 +1,58 @@
+(* up all the version numbers by 1 to indicate the place where the fix
+first appears *)
+
+newgraph
+xaxis min 0.5 size 2.7 no_auto_hash_labels hash_labels fontsize 9
+yaxis min 0 max 50 size 1.9
+ label fontsize 9 : corrected calls to usb_submit_urb
+
+xaxis hash_label at 1 : 2.5.5
+xaxis hash_label at 2 : 2.5.7
+xaxis hash_label at 3 : 2.5.9
+xaxis hash_label at 4 : 2.5.21
+xaxis hash_label at 5 : 2.5.45
+xaxis hash_label at 6 : 2.5.53
+xaxis hash_label at 7 : 2.5.58
+
+newcurve marksize 0.4 1.75 marktype xbar fill .9
+label : local reasons (e.g., locks held)
+pts
+1 3
+2 48
+4 1
+5 4
+6 5
+7 5
+
+newcurve marksize 0.4 1.75 marktype xbar fill .4
+label : containing function stored in a\
+structure or passed to a function
+pts
+1 2
+2 42
+3 5
+6 4
+7 1
+
+newcurve marksize 0.4 1.75 marktype xbar pattern stripe 40
+label : interprocedural effects
+pts
+1 1
+2 4
+3 2
+
+(*
+newcurve marksize 0.4 1.75 marktype xbar color 0 0 1
+label : one level interprocedural effects
+pts
+1 1
+2 4
+3 2
+
+newcurve marksize 0.4 1.75 marktype xbar
+label : multi-level interprocedural effects
+pts
+2 2
+*)
+
+legend defaults fontsize 9 x 2.75 y 29 linebreak 5

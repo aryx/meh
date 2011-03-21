@@ -1,0 +1,2 @@
+followed the good directory organization of mmm (just like Linus followed
+the good directory organization of minix).

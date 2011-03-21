@@ -1,0 +1,16 @@
+<html>
+<!-- from html pocket reference, p39, canvas section -->
+ <head>
+  <script>
+function draw() {
+ var canvas = document.getElementById("box");
+ var ctx = canvas.getContext("2d");
+ ctx.fillStyle = "rgb(163, 120, 240)";
+ ctx.fillRect(55, 40, 75, 100);
+}
+ </script>
+ </head>
+ <body onload="draw()">
+  <canvas id="box" width="250" height="250"></canvas>
+ </body>
+</html>

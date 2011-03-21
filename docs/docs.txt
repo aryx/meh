@@ -1,0 +1,11 @@
+
+wikipedia pages for html, css, js (and html5, ecmascript)
+
+w3c and whatwg spec for html, css, js
+
+oreilly pocket references for html, css, js
+
+wikipedia page for web development and list of browsers.
+
+http://caniuse.com/
+

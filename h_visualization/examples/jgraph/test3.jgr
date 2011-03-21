@@ -1,0 +1,79 @@
+newgraph
+      xaxis
+      (*
+        min 0 
+        hash 1 mhash 0
+        *)    
+      size 3in      
+      min 0.5 
+      hash 0 mhash 0
+
+      hash_label at 2 : Macro\
+in\
+Function
+      hash_labels hjl font Helvetica fontsize 8 rotate -45 
+      (* hash_labels hjr font Helvetica fontsize 7 rotate 45 *)
+
+      (* hash_labels fontsize 7 label : duration (months) *)
+
+      yaxis 
+      (*
+        max 30 
+        min 0 
+        size 2in 
+        *)
+      hash_labels fontsize 12 label fontsize 12 : Files
+
+
+(* title fontsize 10 : Graph 8: Frequency of Traps. *)
+
+newstring x 10 y -2 fontsize 12 : Placement
+
+(* yaxis label fontsize 25  :  device specific files  *)
+
+(*
+newstring x 1 y -0.5 fontsize 12 rotate 45 : Macro\
+in\
+Function
+
+newcurve marktype xbar cfill .9 .9 0 marksize .8 4
+marktype xbar cfill 1 0 1 pattern stripe 40 marksize .8 4
+
+*)
+
+newcurve marktype xbar marksize 1 cfill label : Linux
+pts
+1 8
+
+4 1
+
+7 1
+
+10 11
+
+13 11
+
+
+newcurve marktype xbar color 0.5 0.5 0.5  marksize 1 cfill  label : OpenSolaris
+pts 
+2 10
+
+5 12
+
+8 13
+
+11 14
+
+14 3
+
+newcurve marktype xbar linethickness 0.5 color 0.9 0.9 0.9  marksize 1 cfill label : FreeBSD
+pts 
+3 10
+
+6 12
+
+9 13
+
+12 14
+
+15 3
