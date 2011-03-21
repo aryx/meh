@@ -21,7 +21,7 @@ PROGS=vvv_console
 PROGS+=vvv_test
 
 ifeq ($(FEATURE_GUI),1)
-PROGS+=meuh
+PROGS+=meh
 GUIEXECDIR=gui
 endif
 
@@ -234,17 +234,17 @@ clean::
 	rm -f vvv_console
 
 #------------------------------------------------------------------------------
-# meuh target
+# meh target
 #------------------------------------------------------------------------------
 
-meuh: $(LIBS) main_meuh.cmo 
+meh: $(LIBS) main_meh.cmo 
 	$(OCAMLC) $(CUSTOM) -o $@ $(SYSLIBS) $^
 
-meuh.opt: $(LIBS:.cma=.cmxa) main_meuh.cmx
+meh.opt: $(LIBS:.cma=.cmxa) main_meh.cmx
 	$(OCAMLOPT) $(STATIC) -o $@ $(BASICSYSLIBS:.cma=.cmxa) $^
 
 clean::
-	rm -f meuh
+	rm -f meh
 
 #------------------------------------------------------------------------------
 # vvv_test targets
