@@ -1,16 +1,18 @@
 followed the good directory organization of mmm (just like Linus followed
 the good directory organization of minix):
+ - lang_html/ (was html/)
  - http/
+ - www/
+ - protocols/
  - retrieve/
  - viewers/
- - lang_html/ (was html/)
  - layout/ (was display)
  - gui/ (was mmm)
- - www/
 pad:
  - dom/
  - commons/, data/, demos/, docs/, external/
-missed:
+
+not included:
  - applets/, sandbox/ (no support for now)
  - extensions/ (tachy ??)
  - i18n/ (no support for now)
