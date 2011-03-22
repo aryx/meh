@@ -113,3 +113,9 @@
 /external/ocamlgtk/src/sourceView_tags.c
 /external/ocamlgtk/src/sourceView_tags.h
 /external/ocamlgtk/src/varcc
+/external/ocamlnet/netsys/configtests/atfunctions
+/external/ocamlnet/netsys/configtests/fdopendir
+/external/ocamlnet/netsys/configtests/posix_fadvise
+/external/ocamlnet/netsys/configtests/posix_fadvise.tmp
+/external/ocamlnet/netsys/configtests/posix_fallocate
+/external/ocamlnet/netsys/configtests/posix_fallocate.tmp
