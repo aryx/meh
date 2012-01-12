@@ -1,0 +1,48 @@
+note: why now ? Why imagine possible to make a browser ?
+
+- Well I already have a js parser so I know js is not that complicated.
+  I think it's not that hard to make a html parser (I've played with one
+  in ocamlnet when applying for a job at mylife).
+
+- The HTML5 spec seems very clear on the semantic of HTML, DOM, error recovery
+  and even maybe the rendering. Explicit stated goal of HTML5 is 
+  make it possible to write a browser without reverse engineering
+  the other one :)
+
+- the pocket reference of html, js, css are not that big. It should be possible
+  to do a browser for the most used elements/attributes/APIs/styles. Lots
+  of stuff in firefox and webkit are here for legacy reasons; if start
+  with clean state then maybe not that long to reimplement
+
+- I don't have to implement a full browser; something that would be
+  good enough to parse facebook stuff should already be useful for
+  the company!
+
+- could be a good way for me to learn about HTML and javascript and CSS :)
+  (hmm but it didn't really work for PHP so not sure writing a parser
+  for a language make you learn that much the language)
+
+- Coding codemap showed me cairo rox and it's not that hard to do complex
+  graphics and text. Codemap itself then showed me the code of mmm 
+  is not that big and that the code of firefox/chrome/... is way too big.
+
+- it took too long for firefox/chrome to get very basic features IMHO.
+  they still don't have expose! and chrome still does not have intelligent
+  history when using the URL bar. Moreover everybody wow firefox and
+  chrome for certain new features that really should not be wowed; 
+  it should have take a few hours to implement it ...
+
+- could be complementary of ocsigen :)
+
+- could be able then to automate web stuff :) (can program
+  emacs and w3m but it's tedious)
+
+- could be useful to have a faster watir driver, easier to test our site.
+  could be used to crawl all facebook pages recursively ?
+
+We had at some point the desire to make a better lynx, with colors with
+pixel (but then discovered lynx --color and later elinks)
+
+tests:
+http://en.wikipedia.org/wiki/Acid1
+

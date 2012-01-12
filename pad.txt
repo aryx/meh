@@ -1,0 +1,17 @@
+Why yet another browser?
+
+The Linux of the browser. To learn. Just like Linux
+starts from a good basis, a good organization, the code
+of mmm.
+
+Why do you think it's doable?
+
+The Html5 spec is now clear. Lots of stuff specified.
+Don't have to support all the legacy shit. Start from
+a clean state. Running all the web pages is not a requirement.
+Just need to run Facebook :)
+
+
+XIX spirit!
+
+See also docs/why.txt.
