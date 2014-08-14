@@ -1,2 +1,8 @@
-https://github.com/mozilla/servo/
+http://www.netsurf-browser.org/
+ (but no javascript)
 
+https://github.com/mozilla/servo/
+ (use some netsurf components)
+
+
+http://en.wikipedia.org/wiki/List_of_web_browsers#Others
