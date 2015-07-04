@@ -15,3 +15,6 @@ Just need to run Facebook :)
 XIX spirit!
 
 See also docs/why.txt.
+
+http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Global_and_incremental_layout
+http://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html
